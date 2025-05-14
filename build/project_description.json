@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "lvgl_porting",
-    "project_version":    "1",
+    "project_version":    "251c7d6-dirty",
     "project_path":       "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting",
     "idf_path":           "C:/Users/dekar/esp/v5.4.1/esp-idf",
     "build_dir":          "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build",

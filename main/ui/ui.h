@@ -20,9 +20,16 @@ extern "C" {
 void ui_Screen1_screen_init(void);
 extern lv_obj_t * ui_Screen1;
 extern lv_obj_t * ui_Arc1;
-extern lv_obj_t * ui_Label1;
 extern lv_obj_t * ui_Button1;
-extern lv_obj_t * ui_Label2;
+extern lv_obj_t * ui_Button2;
+extern lv_obj_t * ui_Container1;
+extern lv_obj_t * ui_Colorwheel1;
+extern lv_obj_t * ui_Dropdown1;
+extern lv_obj_t * ui_Spinbox1;
+extern lv_obj_t * ui_Checkbox1;
+extern lv_obj_t * ui_Checkbox2;
+extern lv_obj_t * ui_Checkbox3;
+extern lv_obj_t * ui_Slider1;
 extern lv_obj_t * ui_Switch1;
 // CUSTOM VARIABLES
 

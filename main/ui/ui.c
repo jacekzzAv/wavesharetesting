@@ -12,9 +12,16 @@
 void ui_Screen1_screen_init(void);
 lv_obj_t * ui_Screen1;
 lv_obj_t * ui_Arc1;
-lv_obj_t * ui_Label1;
 lv_obj_t * ui_Button1;
-lv_obj_t * ui_Label2;
+lv_obj_t * ui_Button2;
+lv_obj_t * ui_Container1;
+lv_obj_t * ui_Colorwheel1;
+lv_obj_t * ui_Dropdown1;
+lv_obj_t * ui_Spinbox1;
+lv_obj_t * ui_Checkbox1;
+lv_obj_t * ui_Checkbox2;
+lv_obj_t * ui_Checkbox3;
+lv_obj_t * ui_Slider1;
 lv_obj_t * ui_Switch1;
 // CUSTOM VARIABLES
 

@@ -18,7 +18,7 @@ set(HEAD_HASH)
 file(READ "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
 
 string(STRIP "${HEAD_CONTENTS}" HEAD_CONTENTS)
-set(GIT_DIR "C:/Users/dekar/esp/v5.4.1/esp-idf/.git")
+set(GIT_DIR "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/.git")
 # handle git-worktree
 if(EXISTS "${GIT_DIR}/commondir")
 	file(READ "${GIT_DIR}/commondir" GIT_DIR_NEW LIMIT 1024)
