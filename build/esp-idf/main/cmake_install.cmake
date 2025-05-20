@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/main
+# Install script for directory: C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

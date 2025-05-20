@@ -6412,6 +6412,24 @@
                     {
                         "children": [],
                         "depends_on": null,
+                        "help": "Enable this option if you wish to use display touch.",
+                        "id": "EXAMPLE_LCD_TOUCH_CONTROLLER_GT911",
+                        "name": "EXAMPLE_LCD_TOUCH_CONTROLLER_GT911",
+                        "range": null,
+                        "title": "Enable LCD GT911 Touch",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "example-configuration-touch-controller",
+                "title": "Touch Controller",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": null,
                         "help": "Height of bounce buffer. The width of the buffer is the same as that of the LCD.",
                         "id": "EXAMPLE_LCD_RGB_BOUNCE_BUFFER_HEIGHT",
                         "name": "EXAMPLE_LCD_RGB_BOUNCE_BUFFER_HEIGHT",

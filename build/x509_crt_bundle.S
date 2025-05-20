@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

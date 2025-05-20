@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Users/dekar/esp/v5.4.1/esp-idf/components/bootloader/subprojec
   file(MAKE_DIRECTORY "C:/Users/dekar/esp/v5.4.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/bootloader"
-  "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/bootloader-prefix"
-  "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/bootloader-prefix/tmp"
-  "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/bootloader-prefix/src"
-  "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader"
+  "C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix"
+  "C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/tmp"
+  "C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src"
+  "C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/dekar/Downloads/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP32-S3-Touch-LCD-4.3B-BOX-Demo/ESP-IDF/08_lvgl_Porting/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/dekar/OneDrive/Desktop/project/esp32-waveshare/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
