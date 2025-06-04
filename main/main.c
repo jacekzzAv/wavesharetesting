@@ -5,7 +5,7 @@
  */
 
 #include "waveshare_rgb_lcd_port.h"
-#include "ui.h"
+#include "buttons_screen.h"
 
 
 
@@ -20,11 +20,8 @@ void app_main()
     
     
     ESP_LOGI(TAG, "Display LVGL demos");
-    // Lock the mutex due to the LVGL APIs are not thread-safe
     if (lvgl_port_lock(-1)) {
-    //UI initiazation
-        ui_init();
-
+        buttons_screen_init();
         lvgl_port_unlock();
     }
 }
