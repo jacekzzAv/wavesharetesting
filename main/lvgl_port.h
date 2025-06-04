@@ -139,7 +139,7 @@ esp_err_t lvgl_port_init(esp_lcd_panel_handle_t lcd_handle, esp_lcd_touch_handle
 /**
  * @brief Take LVGL mutex
  *
- * @param[in] timeout_ms: Timeout in [ms]. 0 will block indefinitely.
+ * @param[in] timeout_ms: Timeout in [ms]. A negative value blocks indefinitely.
  *
  * @return
  *      - true:  Mutex was taken
